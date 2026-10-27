@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+    min-height: 100vh;
+    padding: 30px 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #5b4baf;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+h2 {
+    color: #5b4baf;
+    margin: 25px 0 15px;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 20px 0 8px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    background: #667eea;
+    color: #ffffff;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #5145cd;
+}
+
+ul {
+    padding-left: 25px;
+    margin: 15px 0;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.card {
+    background: #f7f7ff;
+    border-left: 5px solid #667eea;
+    padding: 18px;
+    margin: 18px 0;
+    border-radius: 8px;
+}
+
+.skill {
+    display: inline-block;
+    background: #e8eaff;
+    color: #5145cd;
+    padding: 7px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.result {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #5145cd;
+    margin: 20px 0;
+}
+
+a {
+    color: #5145cd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 22px;
+        margin: 15px auto;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    button,
+    input[type="submit"] {
+        width: 100%;
+    }
+}
